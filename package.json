@@ -28,6 +28,7 @@
     "otp-generator": "^4.0.1",
     "path": "^0.12.7",
     "require": "^2.4.20",
+    "validator": "^13.9.0",
     "vercel": "^28.18.4"
   }
 }
