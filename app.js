@@ -21,6 +21,10 @@ app.use(
 app.use('/uploads',express.static('uploads'))
 app.use(cookieParser());
 //import route
+
+app.get('/', (req, res) => {
+  res.send('Welcome to Application!')
+})
 const user = require("./app/routes/user_router");
 app.use('/api/v1',user);
 const product = require("./app/routes/productRoute");
