@@ -6,10 +6,11 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "dev": "NODE_ENV=development node server.js",
     "prod": "NODE_ENV=production node server.js",
-    "win-dev": "set NODE_ENV=development && node server.js"
+    "win-dev": "set NODE_ENV=development && node server.js",
+    "build": "node server.js"
   },
   "description": "",
   "dependencies": {
@@ -26,6 +27,7 @@
     "multer": "^1.4.5-lts.1",
     "otp-generator": "^4.0.1",
     "path": "^0.12.7",
-    "require": "^2.4.20"
+    "require": "^2.4.20",
+    "vercel": "^28.18.4"
   }
 }
